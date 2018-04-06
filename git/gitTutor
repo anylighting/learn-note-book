@@ -33,3 +33,16 @@ git reset HEAD filename
 与远程库关联，origin: 远程库的名称
 git remote add origin git@github.com:michaelliao/learngit.git
 
+将本地master分支推送到远程仓库，设置仓库名为origin，并和本地master分支关联
+git push -u origin master
+
+
+git clone git@github.com:zhaoji/learn
+
+分支管理
+git checkout -b dev 新建dev分支，并切换到dev分支，相当于以下两条命令
+git branch dev 新建dev分支
+git checkout dev 切换到dev分支
+
+查看分支信息,当前分支前会标有×号，星号
+git branch
