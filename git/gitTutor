@@ -1,0 +1,6 @@
+
+
+设置帐号密码; --global 全局设置, 去掉global可以单独为某个项目设置用户名邮箱
+git config --global user.name "your userName"
+git config --global user.email "your email account"
+
