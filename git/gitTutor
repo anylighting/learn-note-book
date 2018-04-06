@@ -44,5 +44,8 @@ git checkout -b dev 新建dev分支，并切换到dev分支，相当于以下两
 git branch dev 新建dev分支
 git checkout dev 切换到dev分支
 
+删除分支
+git branch -d dev
+
 查看分支信息,当前分支前会标有×号，星号
 git branch
