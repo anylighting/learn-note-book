@@ -4,3 +4,32 @@
 git config --global user.name "your userName"
 git config --global user.email "your email account"
 
+
+git init
+git status
+git add */fileName
+git commit -m "comment"
+
+git diff sourceVersion targetVersion
+--- before modify
++++ after modify
+
+
+git log
+git log --pretty=online
+
+回退到版本 上一版本：HEAD^; 上2版本：HEAD^^;上n版本：HEAD～n
+git reset --hard HEAD^
+
+git reflog: 记录命令记录，可以看到版本号
+
+撤销修改;回退到暂存区的数据
+git checkout -- filename
+
+
+将工作区和暂存区回退到版本库状态，可以制定版本
+git reset HEAD filename
+
+与远程库关联，origin: 远程库的名称
+git remote add origin git@github.com:michaelliao/learngit.git
+
